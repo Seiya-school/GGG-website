@@ -17,7 +17,7 @@ div {
   width: 100%;
   display: inline-block;
   height: auto;
-  padding: 12px 24px;
+  
   margin-bottom: 25px;
   background-color: blue;
 }
@@ -34,12 +34,11 @@ p {
 }
 
 img {
-  height: 150px;
+  height: 192px;
   width: auto;
   float: left;
-  margin-bottom: 10px;
+  margin: 0px;
   margin-right: 20px;
-  margin-top: 0px;
 }
 
 main {
