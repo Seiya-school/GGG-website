@@ -9,8 +9,8 @@ body {
   font-weight: 400;
   font-style: normal;
   
-  color: black;
-  background-color: white;
+  color: #F3F3F4;
+  background-color: #09151C;
 }
 
 div {
@@ -19,7 +19,7 @@ div {
   height: auto;
   
   margin-bottom: 25px;
-  background-color: blue;
+  background-color: #153243;
 }
 
 h2 {
@@ -34,7 +34,7 @@ p {
 }
 
 img {
-  height: 192px;
+  height: 288px;
   width: auto;
   float: left;
   margin: 0px;
