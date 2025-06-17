@@ -9,6 +9,19 @@ body {
   background-color: white;
 }
 
+div {
+  width: 500px;
+  display: inline-block;
+  height: auto;
+  padding: 8px 12px;
+  background-color: blue;
+}
+
+img {
+  height: 150px;
+  width: auto;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
