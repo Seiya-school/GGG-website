@@ -29,7 +29,7 @@ font-family: "Inter", sans-serif;
   display: inline-block;
   height: auto;
   
-  margin-bottom: 25px;
+  margin-top: 25px;
   background: linear-gradient(color-mix(in hsl, var(--c_bg), var(--c_bg2) 50%), color-mix(in hsl, var(--c_bg), var(--c_bg2) 100%));
   border-style: solid;
   border-color: black;
@@ -91,10 +91,10 @@ h2, p{
 }
 
 p {
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: 400;
   font-style: italic;
-  text-shadow: black 1px 0 10px;
+  text-shadow: black 12px 12px 10px;
 }
 
 .list {
@@ -111,4 +111,18 @@ h1 {
   color: orangered;
   
   writing-mode: vertical-lr;
+  float: left;
+  margin: 0px;
+  margin-bottom: 100px;
+  text-shadow: 50px 50px 10px #000;
+}
+
+.background {
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
 }
