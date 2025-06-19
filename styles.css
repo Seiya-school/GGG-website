@@ -5,12 +5,13 @@
 body {
   margin: 0;
   
-  font-family: "Cal Sans", sans-serif;
-  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
   font-style: normal;
-  
+
   color: #F3F3F4;
-  background-color: #09151C;
+  background-color: black;
 }
 
 div {
@@ -19,13 +20,15 @@ div {
   height: auto;
   
   margin-bottom: 25px;
-  background-color: #153243;
+  background-color: rgb(6, 3, 31);
+  border-style: solid;
 }
 
 img {
   height: 288px;
   width: auto;
   margin: 0px;
+  border-style: solid;
 }
 
 .left{
