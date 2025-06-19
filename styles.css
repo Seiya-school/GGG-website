@@ -3,7 +3,7 @@
 }
 
 :root{
-  --c_bg: #101111;
+  --c_bg: #0b0b0b;
   --c_bg2: #04101a;
 
   --skew-angle: 30deg;
@@ -78,6 +78,7 @@ span{
 
   margin: 12px;
   margin-left: 24px;
+  margin-bottom: 0px;
 }
 
 .unskewed{
@@ -89,9 +90,13 @@ h2, p{
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 400;
   font-style: italic;
+}
+
+.list {
+  line-height: 2;
 }
 
 main {
