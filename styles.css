@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+:root{
+  --c_bg: #101111;
+  --c_bg2: #04101a;
+
+  --skew-angle: 30deg;
+}
+
 body {
   margin: 0;
   
@@ -10,25 +17,31 @@ body {
   font-weight: 200;
   font-style: normal;
 
-  color: #F3F3F4;
-  background-color: black;
+  color: white;
+
+  background: linear-gradient(color-mix(in hsl, var(--c_bg), var(--c_bg2) 5%), color-mix(in hsl, var(--c_bg), var(--c_bg2) 25%));
+  text-shadow: 0 0 10px #000;
 }
 
-div {
+.info_div{
   width: 100%;
   display: inline-block;
   height: auto;
   
   margin-bottom: 25px;
-  background-color: rgb(6, 3, 31);
+  background: linear-gradient(color-mix(in hsl, var(--c_bg), var(--c_bg2) 50%), color-mix(in hsl, var(--c_bg), var(--c_bg2) 100%));
   border-style: solid;
+  border-color: black;
+
 }
 
 img {
-  height: 288px;
+  height: 360px;
   width: auto;
   margin: 0px;
   border-style: solid;
+  border-color: black;
+  border-width: 12px;
 }
 
 .left{
@@ -42,11 +55,33 @@ img {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 3em;
   padding: 0px;
+  margin: 0.5em;
   line-height: 0;
+
+  text-shadow: white;
+  color: #F35B12;
   font-style: italic;
-  text-decoration: underline;
+
+  text-shadow: 4px 4px #4f2511;
+}
+
+span{
+  display: inline-block;
+  background: linear-gradient(to right, #000000ae, #00000034);
+
+  transform: skew(calc(-1 * var(--skew-angle)));
+  width: auto;
+  height: auto;
+  padding: 4px 4px; 
+
+  margin: 12px;
+  margin-left: 24px;
+}
+
+.unskewed{
+  transform: skew(var(--skew-angle));
 }
 
 h2, p{
@@ -54,7 +89,9 @@ h2, p{
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  font-weight: 400;
+  font-style: italic;
 }
 
 main {
@@ -63,7 +100,8 @@ main {
 
 h1 {
   font-weight: bold;
-  font-size: 3em;
-  color: #FA5700;
+  font-size: 15em;
+  color: orangered;
   
+  writing-mode: vertical-lr;
 }
