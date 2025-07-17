@@ -67,6 +67,17 @@ h2 {
   text-shadow: 4px 4px color-mix(in hsl, var(--c_accent), #0f0000 85%);
 }
 
+h2, p{
+  margin-left: 20px;
+}
+
+.clean {
+  color: rgb(190, 190, 190);
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 4px 4px black;
+}
+
 span{
   display: inline-block;
   background: linear-gradient(to right, #000000ae, #00000034);
@@ -85,22 +96,42 @@ span{
   transform: skew(var(--skew-angle));
 }
 
-h2, p{
-  margin-left: 20px;
-}
-
 p {
   font-size: 1.75em;
   font-weight: 400;
   font-style: italic;
   text-shadow: black 12px 12px 10px;
+
 }
 
-.list {
-  height: 360px;
-  line-height: 2;
-  overflow-y: inherit;
+ul {
+  width: 50%;
 }
+
+li {
+  font-size: 1.75em;
+  line-height: 2;
+  list-style-type: circle;
+}
+
+
+.list {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--c_accent);
+  height: 360px;
+}
+
+.accessibility_list {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--c_accent);
+  height: 360px;
+  width: 1280px;
+  font-size: 1.5em;
+  align-self: center;
+}
+
 
 main {
   padding: 1rem;
